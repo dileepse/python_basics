@@ -1,0 +1,52 @@
+
+
+1.] Variable assigments and simple data types like int, float, boolean, strings
+	Majorly explained about Assignment operator
+	
+2.] Conditional statement majorly on if-elif-else
+	Nested if loop
+
+3.] Loops
+		iterable
+			- range
+			- list
+	
+	Pending - Nested For Loop
+
+4.] Functions:
+	Two Steps :
+		- definition/declaration
+		- Calling the defined function
+	4 Types of functions :
+	    - Without arguments and without return value - default return value None
+		- With arguments and without return value - default return value None
+		- With arguments and with return value 
+		- Without arguments and with return value
+
+5.] list operations - Important
+		- creating a new list in ahard-coded fashion
+		- Accessing List elements using index
+		- Modifying list elements using index
+		- Applying slicing on top of a list and string. 
+		  Nothing but fethching a sub-string or sub-list.
+		- We talked about index out of range issues
+		
+6.] Class and Object
+		Class 
+		Objects
+		Methods
+		
+		Inheritance
+		Polymorphism
+
+7.] Dictionaries 
+
+Functions vs Methods ? Important
+
+
+
+Less Important Topics
+============================
+
+1.] Magical Functions
+		They always starts with __ and ends with __

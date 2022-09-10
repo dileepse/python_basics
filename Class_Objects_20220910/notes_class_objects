@@ -1,0 +1,17 @@
+
+class - template - doesn't contains data/ just a logical plan
+object - actual implementation of class/  not a logical plan it contains data
+constructor - Used for Class attributes/variables declaration
+	- strictly restricted to provide custom method name for constructor only
+	- It should always start with __init__()
+	- This is method
+		* Methods are similar to functions
+		* Then Diff ?
+	- def __init__(self): 
+		* self - mandatory argument
+		* contains arguments
+		* No return value
+			- Reason : This method is not called/invoked manually by the developer
+		* If not called manually then how this functions get executed ?
+			- This __init__() constructor method will get invoked/called automatically during the creation of Object
+
