@@ -1,0 +1,74 @@
+
+class Focus_Institute:
+    sql_trainer = "Mahesh"
+    python_trainer = "Dileep"
+    def __init__(self, stu_id, stu_name, category):
+        self.id = stu_id
+        self.name = stu_name
+        self.category = category
+        print()
+    
+    def set_trainers(self):
+        pass
+        
+    def display_student_details(self):
+        print("{stu_nm} details : ".format(stu_nm = self.name))
+        print("Student Id is : {st_id}".format(st_id = self.id))
+        print("Student Name is : {name}".format(name = self.name))
+        if self.category != "job_training":
+            self.sql_trainer = "No One"
+        print("SQL Trainer name is : {sql_name}".format(sql_name = self.sql_trainer))
+        print("Python Trainer name is : {python_name}".format(python_name = self.python_trainer))
+        print("His training comes under category : {which_category}".format(which_category = self.category))
+    
+    def caluclate_fee(self):
+        if self.category == "learning":
+            print("Fee will be subject to your satisfaction")
+        elif self.category == "job_training":
+            print("Fee will be one month full salary excluding PF and Variable Pay")
+            print("25% of you joining bonus")
+        else:
+            print("Job Category Unknow, Contact Dileep/Mahesh ")
+        
+    
+student_obj1 = Focus_Institute(1, "Adi Narayana", "job_training")
+
+student_obj1.display_student_details()
+
+student_obj1.caluclate_fee()
+
+student_obj2 = Focus_Institute(2, "Aruna", "learning")
+
+student_obj2.display_student_details()
+
+student_obj2.caluclate_fee()
+
+student_obj3 = Focus_Institute(3, "Azeez", "learning")
+
+student_obj3.display_student_details()
+
+student_obj3.caluclate_fee()
+
+student_obj4 = Focus_Institute(4, "Chandu", "job_training")
+
+student_obj4.display_student_details()
+
+student_obj4.caluclate_fee()
+
+student_obj5 = Focus_Institute(5, "Jyoshna", "job_training")
+
+student_obj5.display_student_details()
+
+student_obj5.caluclate_fee()
+
+student_obj6 = Focus_Institute(6,"Rakesh","learning")
+
+student_obj6.display_student_details()
+
+student_obj6.caluclate_fee()
+
+student_obj7 =  Focus_Institute(7, "Kasi", "TBD")
+
+student_obj7.display_student_details()
+
+student_obj7.caluclate_fee()

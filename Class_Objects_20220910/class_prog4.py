@@ -7,9 +7,8 @@ Syntax -
 
 class <CUSTOM CLASS NAME>: # Always start your class name in capital
     def __init__(self): # constructor
-        <blcak box>
-    <common attributes>
-    <some functions/methods>
+        variable assignments using self 
+    <some methods>
     
 2 steps :
     - Class definition
@@ -31,13 +30,13 @@ How to call methods for the created class ?
     * calling will be always object_name.method_name()
     * we will "." to for calling a method with the help of object
     * object_name.method_name
+    
+attributes (variable and methods)
+    class or static variables
+    instance variables
 """
 
 class Student:
-    # self 
-    # self.name ='Adi Narayana'
-    # self.age = 30
-    # variables mentioned with self.x or self.y or self.name class attibutes
     def __init__(self, full_name): 
         self.school = "Sri Chaitanya"
         self.name = full_name
