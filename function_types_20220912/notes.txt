@@ -1,0 +1,14 @@
+positional argument
+
+keyword arguments
+
+default arguments
+
+list pre-defined methods
+	* append()
+		arguments -
+		return value/type - 
+		
+len() - function
+    arguments - 1 argument strictly - list/string
+    return - return the length of the given list or string as an integer

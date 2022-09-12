@@ -43,7 +43,13 @@
 
 Functions vs Methods ? Important
 
+Backlogs:
+=========
 
+arbitary arguments
+
+some program
+	return isprime if odd and return factorial if even
 
 Less Important Topics
 ============================
