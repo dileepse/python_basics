@@ -1,0 +1,108 @@
+Big Data
+	3 V
+		* Volume - Huge volume of data
+		* Velocity - Continous incremental data
+		* Variety - Structured, unstructured and semi structured File types
+			structured data - Your Regular Tabular format data SQL
+			semi-structured data - JSON and XML 
+			unstructured - text, email, non-text(audio,videos, photos)
+
+
+Data Sources
+	log servers(API calls)
+	transactional databases(Mysql/SQL Server/Oracle/SAP)
+	
+Big Data Problems ?
+	Oracle/SQL Server - Licenses - Pricy
+	Cost - When data volume increases cost also gets increased
+	Processing - These so called traditional databases are not on distributed computing
+
+	Main Problems
+		1.] storage cost/capacity
+		2.] processing time
+
+Big Data Solutions
+	1.] Hadoop - Hive(SQL), Sqoop(Optional) 
+	2.] PySpark - Python and SQL
+	3.] Snowflake - SQL and Optionally Python 
+
+Interview Process :
+	1.] Self Intro
+	2.] Project Explanation
+	3.] Theory Questions
+			Spark/Hadoop Architecture
+			Spark/Hadoop Executions
+			Hadoop/Spark/Python Concepts
+	4.] Scenario Based Questions
+			Hands-On
+
+Hadoop : Framework
+	Main Problems
+		1.] storage - HDFS
+		2.] processing - Map Reduce algorithm
+
+HDFS - Hadoop Distributed File System
+
+File System
+	NTFS - 4 KB
+	FAT32 - 4 KB
+	EXT - linux file - 8 KB
+	
+	Block Size - 4 KB
+	
+	RRR - 1 GB 
+		D: drive - Hard Disk
+	VLC/MX - Software - C:/
+	
+1.] VLC Player will start running
+	RAM(In-Memory) 
+		- OS Operations
+		- VLC
+			* D:/> RRR 1 GB Brings it to RAM
+			* 
+
+1 GB - 1024 MB
+1 MB - 1024 KB
+1024 MB - 10,48,576 KB - 2,62,144 Blocks - NTFS/FAT32
+
+1 KB - 8 Bytes
+1 Bytes - 8 Bits
+
+1.] File System - HDFS
+	Block Size - 
+		V1 - 64 MB
+		V2 - 128 MB
+		
+Cluster - Group of machines acts together as a single machine
+
+Processor -
+	Octa - 8 cores
+		OS - 1
+		VLC - 1
+		Python - 1
+		Word Document - 1 
+	
+	
+	i7 - 12 cores
+	
+Machine - Server
+	RAM
+	CPU Cores 
+	Hard Disk
+
+Single Machine - Monolothic Execution/Computing
+Multiple Machine - Distributed Computing - Hadoop/Spark
+
+Sequentials Execution
+
+Parallel Execution
+
+Hi 
+Hello - 1 GB - 8 Blocks 128 MB - 1 Block 10 mins => 8 Block in parallel 10 mins
+
+Bolo - 1 GB
+bye
+
+Good - 1 GB
+bad
+
