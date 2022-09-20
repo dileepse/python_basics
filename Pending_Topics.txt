@@ -1,0 +1,32 @@
+Pending Topics :
+------------------------
+Tuple - 45 mins to 1 hour
+
+Sets - Small topic - 45 mins to 1 hour
+
+Dictionaries - very important may be 2 to 3 classes
+
+Modules - 1 hour
+
+File Operations - small topic - 30 to 45 mins
+
+Exception Handling - 1 hr
+
+Loggers - Might take 1 hour
+
+Walkthrough on Yaml file and command line arguments - 1 hour
+
+os.walk()
+
+1 end to end use case on Python - 2 to 3 classes. You can treat it as mini real-time. - SCD type-2 pre-requisite
+
+Few more sessions on problem solving may be another 5 to 6 hours.
+
+Inheritance in Python - I will leave it to you as an assignment for learning from your end.
+If you can't understand, I will deal at end of Hadoop or Spark.
+
+Decorators -
+
+Generators -
+
+Deep Copying and Shallow Copying
