@@ -1,0 +1,41 @@
+
+strings - group of charater, can be a single word/line or multi line even - immutable
+list - multiple elements stored together as a single entity - mutable
+tuple - same as list but immutable
+sets - multiple elements stored together as a single entity but duplicates are not allowed - mutable
+dictionaries - stores data/values in Key Value format mutable
+
+"""
+Iterables Covered So far
+	- range
+	- strings
+	- lists
+	- tuple
+	- sets
+	- dictionaries
+	
+
+
+Dictionaries :
+	Denoted using {}
+	It stores data in Key,Value format
+	We should mention key and value mandataorily.
+		Key wihtout value, value without doesn't exists in a dictionary
+	
+	Syntax - 
+		dictionary_obj = {key1:value1, key2:value2, key3:value3,....}
+		Key will be either integers or strings
+		Duplicates Keys are not allowed, but duplicate values are allowed.
+		Values in a dictionary can be of any datatype which python
+
+Iteratable with dictionary:		
+	1.] Iterate on original dictionary(whatever the dictionary name), it will return keys only
+	2.] Iterate on original dictionary keys (dict1.keys()), it will return keys only
+	2.] Iterate on original dictionary values (dict1.values()), it will return keys only
+
+Data Structure
+	- Creation
+	- Accessing
+	- modification
+	- 
+	
