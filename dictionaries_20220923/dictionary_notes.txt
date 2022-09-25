@@ -38,4 +38,10 @@ Data Structure
 	- Accessing
 	- modification
 	- 
+
+Linux Commands
+
+git
+
+SQL 
 	
