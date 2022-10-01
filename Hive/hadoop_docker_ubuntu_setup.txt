@@ -83,7 +83,15 @@ cd ~
 or 
 cd /root
 
-command 3:
+command 5:
+------------
+apt-get update
+
+apt-get install vim
+
+command 6:
 ------------
 hive
+
+
 
