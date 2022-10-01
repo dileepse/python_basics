@@ -1,0 +1,121 @@
+id,name, age, designation,order_id,city,salary,dept_code
+1,Rudolf Bardin,30,cashier,100,New York,40000,5
+2,Rob Trask,22,driver,100,New York,50000,4
+3,Madie Nakamura,20,janitor,100,New York,30000,4
+4,Alesha Huntley,40,cashier,101,Los Angeles,40000,10
+5,Iva Moose,50,cashier,102,Phoenix,50000,20
+
+DDL - CREATE STATEMENT
+
+
+Tables in Hive
+ 1.] Internal/Managed
+ 2.] External
+Internal Table/Hive Managed Table
+CREATE TABLE  employee(
+    id    int,
+    name    string,
+    age    int,
+    designation string,
+    order_id    int,
+    city    string,
+    salary    bigint,
+    dept_code    tinyint
+)
+row format delimited
+fields terminated by ","
+lines terminated by "\n";
+
+load data local inpath '/root/emp_data.csv' into table employee;
+
+Internal Tables;
+	When we delete the table, data in HDFS also get deleted
+	When we load data into hive table, data will be copied in the default hive warehouse directory.
+		/user/hive/warehouse/employee/
+	
+
+CREATE TABLE  dileep.employee_table(
+    id    int,
+    name    string,
+    age    int,
+    designation string,
+    order_id    int,
+    city    string,
+    salary    bigint,
+    dept_code    tinyint
+)
+row format delimited
+fields terminated by ","
+lines terminated by "\n";
+
+-- to load data from local filesystem
+load data local inpath '/root/emp_data.csv' into table employee_table;
+
+-- Alternatively we can copy the local file to HDFS hive warehouse location using hdfs dfs -copyFromLocal commands
+
+-- to load data from HDFS filesystem
+load data inpath '/user/data/emp_data/emp_data.csv' into table employee_table;
+
+
+CREATE TABLE  dileep.employee_table1(
+    id    int,
+    name    string,
+    age    int,
+    designation string,
+    order_id    int,
+    city    string,
+    salary    bigint,
+    dept_code    tinyint
+)
+row format delimited
+fields terminated by ","
+lines terminated by "\n";
+
+
+
+
+CREATE TABLE  dileep.employee_table2(
+    id    int,
+    name    string,
+    age    int,
+    designation string,
+    order_id    int,
+    city    string,
+    salary    bigint,
+    dept_code    tinyint
+)
+row format delimited
+fields terminated by ","
+lines terminated by "\n";
+
+load data inpath '/user/data/emp_data/emp_data.csv' into table dileep.employee_table2;
+
+CREATE database training;
+
+	-- creates new database training in hive
+	-- creates a dicrectory in the hive warehouse directory
+
+CREATE TABLE  training.employee_table(
+    id    int,
+    name    string,
+    age    int,
+    designation string,
+    order_id    int,
+    city    string,
+    salary    bigint,
+    dept_code    tinyint
+)
+row format delimited
+fields terminated by ","
+lines terminated by "\n";
+
+
+load data local inpath '~/emp_data.csv' into table employee_table;
+
+load data inpath '/user/data/emp_data/emp_data.csv' into table training.employee_table;
+
+
+
+
+
+
