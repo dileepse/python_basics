@@ -1,0 +1,24 @@
+Options to practice Hadoop/Hive:
+	1.] Cloudera VM - Centos
+		Drawback - Very Slow
+	2.] Cloud Cluster
+			GCP - Dataproc
+				Not offering free service these days
+			AWS - EMR
+				Paid Service
+				Per day, approx charge 100 to 150 ruppees
+			AZURE - Databricks
+	3.] Ubuntu in VM player
+			a.] Setup/Install Hadoop related services manually (Not Preffered)
+				- Consumes lot of time
+			b.] using Docker Images (Preffered)
+				- Min 6 GB RAM is good enough to work
+	4.] Online hive compiler
+		Drawback -
+			Free for only 3 days, after 3 days 2000 per month
+			If you want use it freely, create new mail for every 3 days and use that
+		
+		Few online console:
+			https://cloudxlab.com/lab/
+			
+			https://labs.itversity.com/
